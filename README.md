@@ -20,3 +20,11 @@ The site is running on AWS. The whole deployment is automated by CI/CD pipeline 
 
 docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
 ```
+
+## Storybook
+
+To run storybook locally run inside container:
+
+```commandline
+npm run storybook
+```
